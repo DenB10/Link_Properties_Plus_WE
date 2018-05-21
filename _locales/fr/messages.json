@@ -1,15 +1,15 @@
 {
 	"extensionName": {
-		"message": "Link Properties Plus WE"
+		"message": "Propriétés des liens"
 	},
 	"extensionDescription": {
-		"message": "Complète les propriétés d'un lien : taille du fichier lié, date de modification, etc."
+		"message": "Détaille les propriétés d'un lien : taille du fichier lié, date de modification, etc."
 	},
 	"linkProperties": {
 		"message": "Propriétés du lien"
 	},
 	"linkPropertiesTitle": {
-		"message": "Propriétés du lien: $URI$",
+		"message": "Propriétés du lien : $URI$",
 		"placeholders": {
 			"uri": { "content": "$1" }
 		}
@@ -19,13 +19,13 @@
 		"message": "Lien :"
 	},
 	"referer": {
-		"message": "Page de provenance :"
+		"message": "Référent :"
 	},
 	"goToURI": {
-		"message": "Suivre le lien"
+		"message": "Ouvrir"
 	},
 	"downloadURI": {
-		"message": "Enregistrer le lien…"
+		"message": "Télécharger"
 	},
 	"getProps": {
 		"message": "Obtenir les propriétés"
@@ -44,7 +44,7 @@
 		"message": "Type de contenu :"
 	},
 	"status": {
-		"message": "Statut :"
+		"message": "Code d’état :"
 	},
 	"directLink": {
 		"message": "Lien direct :"
@@ -66,7 +66,7 @@
 		}
 	},
 	"kibibytes": {
-		"description": "See http://fr.wikipedia.org/wiki/Préfixe_binaire",
+		"description": "Voir http://fr.wikipedia.org/wiki/Préfixe_binaire",
 		"message": "$XB$ Kio ($B$ octets)",
 		"placeholders": {
 			"xb": { "content": "$1" },
@@ -123,16 +123,16 @@
 		}
 	},
 	"resumeDownloadShouldBe": {
-		"message": "La reprise de téléchargement devrait être prise en charge"
+		"message": "La reprise de téléchargement devrait être supportée."
 	},
 	"resumeDownloadShouldNot": {
-		"message": "La reprise de téléchargement ne devrait pas être prise en charge"
+		"message": "La reprise du téléchargement n’est sans doute pas supportée."
 	},
 	"missing": {
 		"message": "Absent"
 	},
 	"error": {
-		"message": "Error"
+		"message": "Erreur"
 	},
 	"request": {
 		"message": "Requête"
@@ -142,34 +142,34 @@
 	},
 
 	"openInWindow": {
-		"message": "Open in window"
+		"message": "Ouvrir dans une fenêtre"
 	},
 	"restoreWindowPosition": {
-		"message": "Restore window position"
+		"message": "Restaurer la position de la fenêtre"
 	},
 	"keyboardShortcut": {
-		"message": "Keyboard shortcut:"
+		"message": "Raccourci clavier :"
 	},
 	"showResponseStatus": {
-		"message": "Statut"
+		"message": "Afficher le code d’état"
 	},
 	"showDirectURI": {
-		"message": "Lien direct"
+		"message": "Afficher le lien direct"
 	},
 	"showHttpHeaders": {
-		"message": "En-têtes HTTP"
+		"message": "Afficher les en-têtes HTTP"
 	},
 	"decodeURIs": {
-		"message": "Décoder les URIs"
+		"message": "Décoder les URI"
 	},
 	"useBinaryPrefixes": {
-		"message": "Utiliser les préfixes binaires (1 Kio = 1024 octets)"
+		"message": "Utiliser les préfixes binaires (1 Kio = 1 024 octets)"
 	},
 	"precision": {
-		"message": "Arrondir la taille du fichier à :"
+		"message": "Nombre de décimales :"
 	},
 
 	"debug": {
-		"message": "Debug mode"
+		"message": "Utiliser le mode débogage"
 	}
 }
